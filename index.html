@@ -21,7 +21,7 @@
           <img id="eartg" src="images/eartg.png"/>
           <img id="jupiter" src="images/jupiter.jpg"/>
           <img id="mars" src="images/mars.jpg"/>
-          <img id="mercury" src="images/mercury.png"/>
+          <img id="mercury" src="images/mercury2.png"/>
           <img id="neptune" src="images/neptune.jpg"/>
           <img id="pluto" src="images/pluto.jpg"/>
           <img id="saturn" src="images/saturn.png"/>
@@ -180,6 +180,122 @@
         rotation="0 45 0" 
         radius="0.5"
         material="#saturn"
+        shadow 
+        animation="property: rotation; 
+                    to: 0 360 0; 
+                    loop: true; 
+                    dur: 10000" 
+        animation__mouseenter="
+          property: components.material.material.color; 
+          type: color; 
+          to: black; 
+          startEvents: mouseenter; 
+          dur: 500;"
+        animation__mouseleave="
+          property: components.material.material.color; 
+          type: color; 
+          to: white; 
+          startEvents: mouseleave; 
+          dur: 500;">  
+      </a-sphere>
+    </a-entity>
+     <a-entity rotation="0 0 0"
+      animation="property: rotation; 
+                    to: 0 360 0; 
+                    loop: true; 
+                    dur: 30000" >
+      <a-sphere id="mercury" 
+        position="2 5 -4" 
+        rotation="0 45 0" 
+        radius="0.5"
+        material="#mercury2"
+        shadow 
+        animation="property: rotation; 
+                    to: 0 360 0; 
+                    loop: true; 
+                    dur: 10000" 
+        animation__mouseenter="
+          property: components.material.material.color; 
+          type: color; 
+          to: black; 
+          startEvents: mouseenter; 
+          dur: 500;"
+        animation__mouseleave="
+          property: components.material.material.color; 
+          type: color; 
+          to: white; 
+          startEvents: mouseleave; 
+          dur: 500;">  
+      </a-sphere>
+    </a-entity>
+     <a-entity rotation="0 0 0"
+      animation="property: rotation; 
+                    to: 0 360 0; 
+                    loop: true; 
+                    dur: 20000" >
+      <a-sphere id="uranus" 
+        position="1 4 -6" 
+        rotation="0 45 0" 
+        radius="0.5"
+        material="#uranus"
+        shadow 
+        animation="property: rotation; 
+                    to: 0 360 0; 
+                    loop: true; 
+                    dur: 10000" 
+        animation__mouseenter="
+          property: components.material.material.color; 
+          type: color; 
+          to: black; 
+          startEvents: mouseenter; 
+          dur: 500;"
+        animation__mouseleave="
+          property: components.material.material.color; 
+          type: color; 
+          to: white; 
+          startEvents: mouseleave; 
+          dur: 500;">  
+      </a-sphere>
+    </a-entity>
+     <a-entity rotation="0 0 0"
+      animation="property: rotation; 
+                    to: 0 360 0; 
+                    loop: true; 
+                    dur: 40000" >
+      <a-sphere id="eartg" 
+        position="3 5 -4" 
+        rotation="0 45 0" 
+        radius="0.5"
+        material="#eartg"
+        shadow 
+        animation="property: rotation; 
+                    to: 0 360 0; 
+                    loop: true; 
+                    dur: 10000" 
+        animation__mouseenter="
+          property: components.material.material.color; 
+          type: color; 
+          to: black; 
+          startEvents: mouseenter; 
+          dur: 500;"
+        animation__mouseleave="
+          property: components.material.material.color; 
+          type: color; 
+          to: white; 
+          startEvents: mouseleave; 
+          dur: 500;">  
+      </a-sphere>
+    </a-entity>
+     <a-entity rotation="0 0 0"
+      animation="property: rotation; 
+                    to: 0 360 0; 
+                    loop: true; 
+                    dur: 15000" >
+      <a-sphere id="venus" 
+        position="-1 2 -6" 
+        rotation="0 45 0" 
+        radius="0.5"
+        material="#venus"
         shadow 
         animation="property: rotation; 
                     to: 0 360 0; 
