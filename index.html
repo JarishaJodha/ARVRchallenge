@@ -66,8 +66,46 @@
       <a-sphere id="jupiter" 
         position="0 4 -4" 
         rotation="0 45 0" 
-        radius="1w"
+        radius="0.5"
         src="#jupiter"
+        shadow 
+        animation__mouseenter="
+          property: components.material.material.color; 
+          type: color; 
+          to: black; 
+          startEvents: mouseenter; 
+          dur: 500;"
+        animation__mouseleave="
+          property: components.material.material.color; 
+          type: color; 
+          to: white; 
+          startEvents: mouseleave; 
+          dur: 500;">  
+      </a-sphere>
+      <a-sphere id="mars" 
+        position="-2 4 -4" 
+        rotation="0 45 0" 
+        radius="0.5"
+        src="#mars"
+        shadow 
+        animation__mouseenter="
+          property: components.material.material.color; 
+          type: color; 
+          to: black; 
+          startEvents: mouseenter; 
+          dur: 500;"
+        animation__mouseleave="
+          property: components.material.material.color; 
+          type: color; 
+          to: white; 
+          startEvents: mouseleave; 
+          dur: 500;">  
+      </a-sphere>
+      <a-sphere id="mercury" 
+        position="2 4 -4" 
+        rotation="0 45 0" 
+        radius="0.7"
+        src="#mercury"
         shadow 
         animation__mouseenter="
           property: components.material.material.color; 
