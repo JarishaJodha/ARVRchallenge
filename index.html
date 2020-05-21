@@ -7,13 +7,7 @@
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="scripts/main.js" defer></script>
   </head>
-  <body>
-  <a-scene
-  vr-mode-ui="enterVRButton: #myEnterVRButton; enterARButton: #myEnterARButton">
-  <!-- Style the button with images or whatever. -->
-  <a id="myEnterVRButton" href="#"></a>
-  <a id="myEnterARButton" href="#"></a>
-</a-scene>  
+  <body> 
    <a-scene>
       <a-assets>
           <img id="space" src="images/space.jpg"/>
@@ -33,7 +27,6 @@
           <img id="venus" src="images/venus.jpg"/>
           <img id="mercury" src="images/mercury.jpg"/>
       </a-assets>
-
       <a-camera>
         <a-entity id="mouseCursor"
           cursor="fuse: true; fuseTimeout: 1500">
