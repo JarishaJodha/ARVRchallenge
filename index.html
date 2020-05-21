@@ -8,8 +8,12 @@
     <script src="scripts/main.js" defer></script>
   </head>
   <body>
-<form>
-<input type="button" value="Stop sound" onclick="window.location.href='https://jarishajodha.github.io/ARVRchallenge/'" /></form>   
+  <a-scene
+  vr-mode-ui="enterVRButton: #myEnterVRButton; enterARButton: #myEnterARButton">
+  <!-- Style the button with images or whatever. -->
+  <a id="myEnterVRButton" href="#"></a>
+  <a id="myEnterARButton" href="#"></a>
+</a-scene>  
    <a-scene>
       <a-assets>
           <img id="space" src="images/space.jpg"/>
