@@ -40,6 +40,7 @@
         </a-ring>
       </a-camera>
       <a-sky id="background-img" src="#sky4"></a-sky>
+      <a-entity text="value: Welcome to the Virtual Galaxy;"></a-entity>
       <a-entity rotation="0 0 0"
       animation="property: rotation; 
                     to: 0 360 0; 
@@ -276,7 +277,8 @@
       animation="property: rotation; 
                     to: 0 360 0; 
                     loop: true; 
-                    dur: 40000" >
+                    dur: 40000"
+     sound="src: url(earthsound.mp3); on: click">
       <a-sphere id="eartg" 
         position="3 2 -3" 
         rotation="0 45 0" 

@@ -21,9 +21,6 @@ myOtherBox.addEventListener('mouseleave', function(){
 	console.log('left');
 });
 
-var entity = document.querySelector('[sound]');
-entity.components.sound.stopSound();
-
 
 /*
  * click-events can use a fuse (default on mobile). So the event only fires, if the cursor is on the object for a specified time. 
