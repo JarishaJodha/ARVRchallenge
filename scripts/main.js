@@ -21,7 +21,8 @@ myOtherBox.addEventListener('mouseleave', function(){
 	console.log('left');
 });
 
-
+var entity = document.querySelector('[sound]');
+entity.components.sound.stopSound();
 
 
 /*
